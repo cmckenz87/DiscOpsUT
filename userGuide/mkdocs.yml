@@ -3,25 +3,17 @@ site_name: GCSS-Army User Guide
 extra_css:
   - stylesheets/extra.css
 
-theme:
+theme: 
   palette: 
-
-    # Palette toggle for automatic mode
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/toggle-switch-auto
-        name: Switch to light mode
-
     # Palette toggle for light mode
-    - media: "(prefers-color-scheme: light)"
-    - scheme: light
+      scheme: main
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
 
+
     # Palette toggle for dark mode
-    - media: "(prefers-color-scheme: dark)"
-    - scheme: dark
+      scheme: slate
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
