@@ -7,6 +7,6 @@ hide:
 
 # Introduction
 
-!!! warning "Under construction"
+Welcome to DISCOPS!
 
     Work in progress
