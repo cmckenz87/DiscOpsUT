@@ -1,17 +1,14 @@
-site_name: GCSS-Army User Guide
-
+site_name: DiscOps User Guide
+theme:
+  name: material
+  features:
+    - navigation.tabs
+    - navigation.footer
 extra_css:
   - stylesheets/extra.css
-
-features:
-  - navigation.tabs
-  - navigation.footer
-
 extra:
   generator: false
-
 copyright: Copyright &copy; 2024 - Ernst & Young
-
 plugins:
   - offline
   - mkdocs-nav-weight:
