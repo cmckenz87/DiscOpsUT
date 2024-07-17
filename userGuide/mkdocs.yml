@@ -3,26 +3,9 @@ site_name: GCSS-Army User Guide
 extra_css:
   - stylesheets/extra.css
 
-theme: 
-  palette: 
-    # Palette toggle for light mode
-      scheme: main
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
-
-
-    # Palette toggle for dark mode
-      scheme: slate
-      toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
-
-  features:
-    - navigation.tabs
-    - navigation.footer
-
-  
+features:
+  - navigation.tabs
+  - navigation.footer
 
 extra:
   generator: false
